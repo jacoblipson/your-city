@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro|Lobster);
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;;
+}
+
+#chart_div {
+	float: left;
+	width: 50%;
+	height: 40%;
+}
+
+#questions_div {
+	float: left;
+	width: 44%;
+	height: 570px;
+	margin: 3%;
+	border-radius: 14px;
+	background-color: blue;
+}
+
+#inner_div {
+	width: 86%;
+	margin: 3%;
+	height: 86%;
+	border-radius: 14px;
+	background-color: pink;
+	padding: 4%;
+}
+
+#inner_div h2 {
+	font-family: 'Lobster', cursive;
+	text-align: center;
+}
+
+#inner_div button {
+	margin-left: 40%;
+	width: 20%;
+	height: 10%;
+	background-color: white;
+	border-radius: 14px;
+}
