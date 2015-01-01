@@ -19,24 +19,41 @@ body {
 	background-color: blue;
 }
 
-#inner_div {
+.inner_div {
 	width: 86%;
 	margin: 3%;
-	height: 86%;
+	height: 91%;
 	border-radius: 14px;
 	background-color: pink;
 	padding: 4%;
-}
-
-#inner_div h2 {
-	font-family: 'Lobster', cursive;
 	text-align: center;
 }
 
-#inner_div button {
-	margin-left: 40%;
-	width: 20%;
+.inner_div h2 {
+	font-family: 'Lobster', cursive;
+}
+
+.inner_div button {
 	height: 10%;
 	background-color: white;
 	border-radius: 14px;
+	font-size: 1em;
+	margin-top: 30%;
+	padding: 4%;
+
+}
+
+button:focus {outline:0;}
+
+#d1 {
+	background-color: green;
+}
+
+#d2 {
+	display: none;
+	background-color: red;
+}
+
+#d3 {
+
 }

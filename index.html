@@ -2,16 +2,23 @@
 <html>
   <head>
 	<link rel="stylesheet" href="home.css">
+	<script src="javascript/jquery-1.11.2.js"></script>
+    <script type='text/javascript' src='javascript/form_qs.js'></script>
     <script type='text/javascript' src='https://www.google.com/jsapi'></script>
-    <script type='text/javascript' src='map_data.js'></script>
+    <script type='text/javascript' src='javascript/map_data.js'></script>
   </head>
   <body>
     <div id="chart_div"></div>
     <div id="questions_div">
-    	<div id="inner_div">
+    	<div class="inner_div" id="d1">
     		<h2>Where's Your Soul City?</h2>
     		<p>There are many, many great places to live in this country. But you have too many issues to just pick one at random. Come along on this journey, and we'll figure out where you'll be happiest.</p>
-    		<button>START</button>
+    		<button id="b1">START</button>
+    	</div>
+    	<div class="inner_div" id="d2">
+    		<h2>INSERT WEATHER PUN</h2>
+    		<p>hot or cold.</p>
+    		<button id="b2">NEXT UP: </button>
     	</div>
     </div>
   </body>
